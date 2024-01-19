@@ -21,6 +21,10 @@ Genereer een API project om de data op te halen met behulp van de dbcontext
 
 ---------------------
 
+Genereer een docker file om dit project te draaien obv mcr.microsoft.com/dotnet/aspnet:8.0 en expose port 8080 en geef alsjeblieft ook het commando om deze te runnen op port 8081
+
+----------------------
+
 Genereer een angular frontend applicatie die deze api aanroept. Met een default angular material thema
 
 --------------------- -->
