@@ -1,0 +1,82 @@
+Ik heb een lijst met namen van bezoekers de DotnetDinner Maart 2024. Wij hebben 2 prijzen te verloten. De eerste prijs is een ".NET zomerhoedje", de tweede prijs zijn ".NET sokken". Ik wil een .NET 8 api schrijven die de data beschikbaar stel met minimal api. De minimal api moet de dbcontext aanroepen. Stop de lijst eenmalig met namen in de dbcontext met behulp van een seed methode, hard coded in onmodelcreating. Controleer of de database aangemaakt is met EnsureCreatedAsync. Geef me ook de commandos om de projecten aan te maken. Voeg ook de usings toe aub. Maak nieuwe files aan voor Visitor class en de dbcontext met namespaces.
+Kies 2 willekeurige namen en vertel wat ze hebben gewonnen. 
+
+Dit is de lijst met namen:
+
+Addy Tas
+Adric Walter
+Bas Dorresteijn
+Bas Tesselaar
+Benjamin van der Kwaak
+Boris Enthoven
+Daniel Paulus
+Ehstesam Ahmed
+Faisal Hossaien
+Frank van Bokhoven
+Gerline van Lieburg
+Gideon Potgieter
+Gideon van de Laar
+Guido Kleij
+Heimen van Kooten
+Henk Jan Pluim
+Jeroen Faas
+Jeroen Mineur
+Johan du Plooy
+Jorrit Mertens
+Kayleigh Schoorl
+Kees Wiegel
+Kevin Klein
+Leo Broos
+Maarten van Stam
+Marco van den Bulk
+Martijn Burgers
+Martijn Prins
+Mathijs Lagendijk
+Mitchell van den Bulk
+Mohammed Moumen
+Mostafiz Chowdhury
+Mustafa El Bouazzaoui
+Onno Janssen
+Patrick Böhner
+Paul Zonneveld
+Peter Kuijt
+Pim van Dijk
+Raymon Turkenburg
+Rick Samson
+Robert Blom
+Robert Vooijs
+Robin Seinen
+Roemer Hendrikx
+Roméro Broos
+Ronald van den Broek
+Roy Gerritse
+Sachin Nair
+Salih Kiliç
+Sammar Al-Waealy
+Stefan Weijman
+Stephan van der Meer 
+Thomas Maij
+Tijn Hoekstra
+Tony Roelofsen
+Tygo Heemsbergen
+Xander Valenkamp
+
+
+-------------------
+
+C:\Sources\ShareValue\DotnetDinner\Maart 2024\DotnetDinner\DotnetDinnerContext.cs(1,17): error CS0234: The type or namespace name 'EntityFrameworkCore' does not exist in the namespace 'Microsoft' (are you missing an a
+ssembly reference?) [C:\Sources\ShareValue\DotnetDinner\Maart 2024\DotnetDinner\DotnetDinner.csproj]
+
+--------------------
+
+
+
+<!-- --------------------
+
+Genereer een API project om de data op te halen met behulp van de dbcontext
+
+---------------------
+
+Genereer een angular frontend applicatie die deze api aanroept. Met een default angular material thema
+
+--------------------- -->
