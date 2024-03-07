@@ -1,23 +1,14 @@
 Ik heb een lijst met namen van bezoekers de DotnetDinner Maart 2024. Wij hebben 2 prijzen te verloten. De eerste prijs is een ".NET zomerhoedje", de tweede prijs zijn ".NET sokken". Ik wil een .NET 8 api schrijven die de data beschikbaar stel met minimal api. De minimal api moet de dbcontext aanroepen. Stop de lijst eenmalig met namen in de dbcontext met behulp van een seed methode, hard coded in onmodelcreating. Controleer of de database aangemaakt is met EnsureCreatedAsync. Geef me ook de commandos om de projecten aan te maken. Voeg ook de usings toe aub. Maak nieuwe files aan voor Visitor class en de dbcontext met namespaces.
 Kies 2 willekeurige namen en vertel wat ze hebben gewonnen. 
+Wanneer ik bestanden aan moet maken, geeft dit dan aan in losse terminal commando's.
+Dit api project wordt uiteindelijk aangeroepen door een angular frontend applicatie vanaf http://localhost:4200. Dus zorgt dat de CORS goed staat.
 
 Dit is de lijst met namen:
 
+- Raymon S
+- Marco K
+- Helga B
 
-
-
--------------------
-
-C:\Sources\ShareValue\DotnetDinner\Maart 2024\DotnetDinner\DotnetDinnerContext.cs(1,17): error CS0234: The type or namespace name 'EntityFrameworkCore' does not exist in the namespace 'Microsoft' (are you missing an a
-ssembly reference?) [C:\Sources\ShareValue\DotnetDinner\Maart 2024\DotnetDinner\DotnetDinner.csproj]
-
---------------------
-
-
-
-<!-- --------------------
-
-Genereer een API project om de data op te halen met behulp van de dbcontext
 
 ---------------------
 
@@ -25,6 +16,6 @@ Genereer een docker file om dit project te draaien obv mcr.microsoft.com/dotnet/
 
 ----------------------
 
-Genereer een angular frontend applicatie die deze api aanroept. Met een default angular material thema
+Genereer een angular frontend applicatie die deze api aanroept. Met een default angular material thema. Dus je hebt hebt geen app.module.ts. We willen geen standalone components gebruiken. De componenten maken gebruik van scss files voor styling. Gebruik angular 16 voor het npm install commando
 
 --------------------- -->
