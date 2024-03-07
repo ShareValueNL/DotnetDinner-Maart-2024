@@ -1,0 +1,5 @@
+ But I need your help building the styling. Can you help me build the layout with HTML and CSS so I can include that in my Angular application? For the CSS, make sure the layout is full-screen. The button and winner cards need to be aligned in the middle; make sure they are also aligned vertically. Ensure the bar at the top of the design always stays there. For the colors in the CSS, I want you to use the custom properties. 
+
+The color codes are:
+- orange: #FF7A00
+- gray: #3E3E3E
