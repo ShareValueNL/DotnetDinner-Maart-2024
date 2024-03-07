@@ -18,4 +18,16 @@ Genereer een docker file om dit project te draaien obv mcr.microsoft.com/dotnet/
 
 Genereer een angular frontend applicatie die deze api aanroept. Met een default angular material thema. Dus je hebt hebt geen app.module.ts. We willen geen standalone components gebruiken. De componenten maken gebruik van scss files voor styling. Gebruik angular 16 voor het npm install commando
 
+----------------------
+
+Maak dit design met HTML & CSS. Houd hierbij rekening met responsive design. Zorg ervoor dat de layout altijd de volledige hoogte van het scherm bevat. De head moet ten alle tijden boven aan de pagina zijn. De button  en de cards met winnaars moeten altijd gecentreerd zijn op het scherm, zowel op de x as als de y as. 
+
+Dit scherm komt in een Angular applicatie, dus de namen komen uit een API endpoint. Dit is de JSON die terugkomt van de API:
+
+{"firstPrize":"John Doe","secondPrize":"Jane Doe"}
+
+----------------------
+
+Nu word API aangeroepen op het moment dat het scherm geladen. Maar ik wil de button in winners.component.html de API aanroept.
+
 --------------------- -->
