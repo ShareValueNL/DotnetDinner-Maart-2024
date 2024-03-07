@@ -1,6 +1,22 @@
 <!-- winners.component.html -->
-<div *ngIf="winners">
+<!-- <div *ngIf="winners">
     <h2>Winners</h2>
     <p>First prize: {{ winners.firstPrize }}</p>
     <p>Second prize: {{ winners.secondPrize }}</p>
+</div> -->
+
+<div class="container">
+  <header>
+    <h1>DOTNET DINNER 2024</h1>
+  </header>
+  
+  <main class="winners">
+    <div class="winner-card" *ngFor="let winner of prizes">
+      <span>{{ winner }}</span>
+    </div>
+  </main>
+  
+  <footer>
+    <button class="pick-winners-button" (click)="loadWinners()">PICK THE WINNERS</button>
+  </footer>
 </div>
